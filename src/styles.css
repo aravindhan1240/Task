@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/*header one style*/
+.sidebar-nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 6px 10px;
+    transition: 0.5s;
+    color: black;
+}
+.sidebar-nav ul li a:hover {
+    background-color:black;
+    border-radius: 4px;
+    color:aliceblue;
+}
+.sidebar-nav .offcanvas {
+    width: 250px;
+    border: none;
+}
+
+/*header two*/
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+input{
+    width:100%;
+    height:40px;
+    
+    
+}
+
+.day{
+    margin-left:42%;
+    width:100px;
+    height: 40px;
+    background-color: blue;
+    border:none;
+    border-radius: 2px;
+}
+
+.form-group{
+    padding:40px;
+    margin:20pxp 20px;
+}

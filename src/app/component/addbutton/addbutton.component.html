@@ -1,0 +1,14 @@
+<h1>Add Form</h1>
+
+<div class="form-group" >
+  <input type="text" class="form-contorl" name="post" [(ngModel)] ="post" placeholder="Name"><br><br>
+  <input type="email" class="form-contorl" name="email" [(ngModel)] ="email" placeholder="Email">
+
+</div>
+
+<div>
+  <button class="day" type="submit" (click)="AddPost(post)"(click)="AddPost(email)">Submit</button>
+</div>
+
+<app-name [childPost]="parentPost">
+</app-name>

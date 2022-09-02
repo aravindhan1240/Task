@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Home</button>
+  <button mat-menu-item routerLink="/screenone">Back</button>
+  <button mat-menu-item>Logout</button>
+</mat-menu>
+    </button>
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="warn" (click)="openDialog()">Add details</button>
+  </mat-toolbar>
